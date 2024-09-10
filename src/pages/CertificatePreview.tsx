@@ -54,7 +54,7 @@ export default function CertificatePreview() {
       >
         <div className='absolute inset-0 flex flex-col justify-center items-start p-8 sm:p-12 md:p-12 lg:p-12 text-[#24a5f4]'>
           <h3 className='text-sm sm:text-md md:text-xl lg:text-2xl font-bold mb-12 sm:mb-16 md:mb-16 lg:mb-16'>
-            {name || 'Nama Pemalas'}
+            {name || 'Nama Si Rajin'}
           </h3>
         </div>
         <div className='absolute inset-0 flex flex-col justify-center items-start p-8 sm:p-12 md:p-12 lg:p-12  text-[#24a5f4]'>
