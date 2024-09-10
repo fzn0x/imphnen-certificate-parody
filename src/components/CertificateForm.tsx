@@ -27,10 +27,10 @@ const CertificateForm: React.FC<CertificateFormProps> = ({ onSubmit }) => {
           <form onSubmit={handleSubmit}>
             <div className='grid w-full items-center gap-4'>
               <div className='flex flex-col space-y-1.5'>
-                <Label htmlFor='name'>Nama sipemalas</Label>
+                <Label htmlFor='name'>Nama si rajin</Label>
                 <Input
                   id='name'
-                  placeholder='Masukin nama ente'
+                  placeholder='Masukin nama lu'
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   required
